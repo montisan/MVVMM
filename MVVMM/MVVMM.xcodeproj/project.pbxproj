@@ -15,12 +15,12 @@
 		D094FD981CD6EC7B000531C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D094FD961CD6EC7B000531C5 /* LaunchScreen.storyboard */; };
 		D094FDA31CD6EC7B000531C5 /* MVVMMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D094FDA21CD6EC7B000531C5 /* MVVMMTests.m */; };
 		D094FDAE1CD6EC7B000531C5 /* MVVMMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D094FDAD1CD6EC7B000531C5 /* MVVMMUITests.m */; };
-		D094FDC21CD6F1FB000531C5 /* APIAuctionDetailRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = D094FDC11CD6F1FB000531C5 /* APIAuctionDetailRequester.m */; settings = {ASSET_TAGS = (); }; };
-		D094FDC51CD6F406000531C5 /* AuctionDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D094FDC41CD6F406000531C5 /* AuctionDetailViewModel.m */; settings = {ASSET_TAGS = (); }; };
-		D094FDC81CD6F6A3000531C5 /* AuctionBusinessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D094FDC71CD6F6A3000531C5 /* AuctionBusinessManager.m */; settings = {ASSET_TAGS = (); }; };
-		D094FDCC1CD6F9F5000531C5 /* AuctionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D094FDCB1CD6F9F5000531C5 /* AuctionDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
-		D094FDCF1CD6FA0F000531C5 /* AuctionDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = D094FDCE1CD6FA0F000531C5 /* AuctionDetailView.m */; settings = {ASSET_TAGS = (); }; };
-		D094FDD21CD70378000531C5 /* APIBidReuquester.m in Sources */ = {isa = PBXBuildFile; fileRef = D094FDD11CD70378000531C5 /* APIBidReuquester.m */; settings = {ASSET_TAGS = (); }; };
+		D094FDE51CD71E44000531C5 /* AuctionBusinessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D094FDD51CD71E44000531C5 /* AuctionBusinessManager.m */; settings = {ASSET_TAGS = (); }; };
+		D094FDE61CD71E44000531C5 /* APIAuctionDetailRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = D094FDD91CD71E44000531C5 /* APIAuctionDetailRequester.m */; settings = {ASSET_TAGS = (); }; };
+		D094FDE71CD71E44000531C5 /* APIBidReuquester.m in Sources */ = {isa = PBXBuildFile; fileRef = D094FDDB1CD71E44000531C5 /* APIBidReuquester.m */; settings = {ASSET_TAGS = (); }; };
+		D094FDE81CD71E44000531C5 /* AuctionDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = D094FDDE1CD71E44000531C5 /* AuctionDetailView.m */; settings = {ASSET_TAGS = (); }; };
+		D094FDE91CD71E44000531C5 /* AuctionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D094FDE11CD71E44000531C5 /* AuctionDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D094FDEA1CD71E44000531C5 /* AuctionDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D094FDE41CD71E44000531C5 /* AuctionDetailViewModel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,19 +57,19 @@
 		D094FDA91CD6EC7B000531C5 /* MVVMMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D094FDAD1CD6EC7B000531C5 /* MVVMMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMMUITests.m; sourceTree = "<group>"; };
 		D094FDAF1CD6EC7B000531C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D094FDC01CD6F1FB000531C5 /* APIAuctionDetailRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIAuctionDetailRequester.h; sourceTree = "<group>"; };
-		D094FDC11CD6F1FB000531C5 /* APIAuctionDetailRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIAuctionDetailRequester.m; sourceTree = "<group>"; };
-		D094FDC31CD6F406000531C5 /* AuctionDetailViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionDetailViewModel.h; sourceTree = "<group>"; };
-		D094FDC41CD6F406000531C5 /* AuctionDetailViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuctionDetailViewModel.m; sourceTree = "<group>"; };
-		D094FDC61CD6F6A3000531C5 /* AuctionBusinessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionBusinessManager.h; sourceTree = "<group>"; };
-		D094FDC71CD6F6A3000531C5 /* AuctionBusinessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuctionBusinessManager.m; sourceTree = "<group>"; };
-		D094FDC91CD6F6DF000531C5 /* AuctionBusinessProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuctionBusinessProtocol.h; sourceTree = "<group>"; };
-		D094FDCA1CD6F9F5000531C5 /* AuctionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionDetailViewController.h; sourceTree = "<group>"; };
-		D094FDCB1CD6F9F5000531C5 /* AuctionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuctionDetailViewController.m; sourceTree = "<group>"; };
-		D094FDCD1CD6FA0F000531C5 /* AuctionDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionDetailView.h; sourceTree = "<group>"; };
-		D094FDCE1CD6FA0F000531C5 /* AuctionDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuctionDetailView.m; sourceTree = "<group>"; };
-		D094FDD01CD70378000531C5 /* APIBidReuquester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIBidReuquester.h; sourceTree = "<group>"; };
-		D094FDD11CD70378000531C5 /* APIBidReuquester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIBidReuquester.m; sourceTree = "<group>"; };
+		D094FDD41CD71E44000531C5 /* AuctionBusinessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionBusinessManager.h; sourceTree = "<group>"; };
+		D094FDD51CD71E44000531C5 /* AuctionBusinessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuctionBusinessManager.m; sourceTree = "<group>"; };
+		D094FDD61CD71E44000531C5 /* AuctionBusinessProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionBusinessProtocol.h; sourceTree = "<group>"; };
+		D094FDD81CD71E44000531C5 /* APIAuctionDetailRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIAuctionDetailRequester.h; sourceTree = "<group>"; };
+		D094FDD91CD71E44000531C5 /* APIAuctionDetailRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIAuctionDetailRequester.m; sourceTree = "<group>"; };
+		D094FDDA1CD71E44000531C5 /* APIBidReuquester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIBidReuquester.h; sourceTree = "<group>"; };
+		D094FDDB1CD71E44000531C5 /* APIBidReuquester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIBidReuquester.m; sourceTree = "<group>"; };
+		D094FDDD1CD71E44000531C5 /* AuctionDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionDetailView.h; sourceTree = "<group>"; };
+		D094FDDE1CD71E44000531C5 /* AuctionDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuctionDetailView.m; sourceTree = "<group>"; };
+		D094FDE01CD71E44000531C5 /* AuctionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionDetailViewController.h; sourceTree = "<group>"; };
+		D094FDE11CD71E44000531C5 /* AuctionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuctionDetailViewController.m; sourceTree = "<group>"; };
+		D094FDE31CD71E44000531C5 /* AuctionDetailViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuctionDetailViewModel.h; sourceTree = "<group>"; };
+		D094FDE41CD71E44000531C5 /* AuctionDetailViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuctionDetailViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,11 +120,11 @@
 		D094FD871CD6EC7B000531C5 /* MVVMM */ = {
 			isa = PBXGroup;
 			children = (
-				D094FDBC1CD6EC98000531C5 /* View */,
-				D094FDBF1CD6F16E000531C5 /* ViewController */,
-				D094FDBD1CD6ECA5000531C5 /* ViewModel */,
-				D094FDBE1CD6ECDA000531C5 /* Manager */,
-				D094FDBB1CD6EC85000531C5 /* Network */,
+				D094FDDC1CD71E44000531C5 /* View */,
+				D094FDDF1CD71E44000531C5 /* ViewController */,
+				D094FDE21CD71E44000531C5 /* ViewModel */,
+				D094FDD31CD71E44000531C5 /* Manager */,
+				D094FDD71CD71E44000531C5 /* Network */,
 				D094FD8B1CD6EC7B000531C5 /* AppDelegate.h */,
 				D094FD8C1CD6EC7B000531C5 /* AppDelegate.m */,
 				D094FD8E1CD6EC7B000531C5 /* ViewController.h */,
@@ -164,52 +164,52 @@
 			path = MVVMMUITests;
 			sourceTree = "<group>";
 		};
-		D094FDBB1CD6EC85000531C5 /* Network */ = {
+		D094FDD31CD71E44000531C5 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				D094FDC01CD6F1FB000531C5 /* APIAuctionDetailRequester.h */,
-				D094FDC11CD6F1FB000531C5 /* APIAuctionDetailRequester.m */,
-				D094FDD01CD70378000531C5 /* APIBidReuquester.h */,
-				D094FDD11CD70378000531C5 /* APIBidReuquester.m */,
+				D094FDD41CD71E44000531C5 /* AuctionBusinessManager.h */,
+				D094FDD51CD71E44000531C5 /* AuctionBusinessManager.m */,
+				D094FDD61CD71E44000531C5 /* AuctionBusinessProtocol.h */,
 			);
-			name = Network;
+			path = Manager;
 			sourceTree = "<group>";
 		};
-		D094FDBC1CD6EC98000531C5 /* View */ = {
+		D094FDD71CD71E44000531C5 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				D094FDCD1CD6FA0F000531C5 /* AuctionDetailView.h */,
-				D094FDCE1CD6FA0F000531C5 /* AuctionDetailView.m */,
+				D094FDD81CD71E44000531C5 /* APIAuctionDetailRequester.h */,
+				D094FDD91CD71E44000531C5 /* APIAuctionDetailRequester.m */,
+				D094FDDA1CD71E44000531C5 /* APIBidReuquester.h */,
+				D094FDDB1CD71E44000531C5 /* APIBidReuquester.m */,
 			);
-			name = View;
+			path = Network;
 			sourceTree = "<group>";
 		};
-		D094FDBD1CD6ECA5000531C5 /* ViewModel */ = {
+		D094FDDC1CD71E44000531C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D094FDC31CD6F406000531C5 /* AuctionDetailViewModel.h */,
-				D094FDC41CD6F406000531C5 /* AuctionDetailViewModel.m */,
+				D094FDDD1CD71E44000531C5 /* AuctionDetailView.h */,
+				D094FDDE1CD71E44000531C5 /* AuctionDetailView.m */,
 			);
-			name = ViewModel;
+			path = View;
 			sourceTree = "<group>";
 		};
-		D094FDBE1CD6ECDA000531C5 /* Manager */ = {
+		D094FDDF1CD71E44000531C5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				D094FDC61CD6F6A3000531C5 /* AuctionBusinessManager.h */,
-				D094FDC71CD6F6A3000531C5 /* AuctionBusinessManager.m */,
-				D094FDC91CD6F6DF000531C5 /* AuctionBusinessProtocol.h */,
+				D094FDE01CD71E44000531C5 /* AuctionDetailViewController.h */,
+				D094FDE11CD71E44000531C5 /* AuctionDetailViewController.m */,
 			);
-			name = Manager;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
-		D094FDBF1CD6F16E000531C5 /* ViewController */ = {
+		D094FDE21CD71E44000531C5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				D094FDCA1CD6F9F5000531C5 /* AuctionDetailViewController.h */,
-				D094FDCB1CD6F9F5000531C5 /* AuctionDetailViewController.m */,
+				D094FDE31CD71E44000531C5 /* AuctionDetailViewModel.h */,
+				D094FDE41CD71E44000531C5 /* AuctionDetailViewModel.m */,
 			);
-			name = ViewController;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,14 +343,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D094FD901CD6EC7B000531C5 /* ViewController.m in Sources */,
+				D094FDE51CD71E44000531C5 /* AuctionBusinessManager.m in Sources */,
+				D094FDE81CD71E44000531C5 /* AuctionDetailView.m in Sources */,
 				D094FD8D1CD6EC7B000531C5 /* AppDelegate.m in Sources */,
-				D094FDC21CD6F1FB000531C5 /* APIAuctionDetailRequester.m in Sources */,
+				D094FDEA1CD71E44000531C5 /* AuctionDetailViewModel.m in Sources */,
+				D094FDE71CD71E44000531C5 /* APIBidReuquester.m in Sources */,
+				D094FDE91CD71E44000531C5 /* AuctionDetailViewController.m in Sources */,
+				D094FDE61CD71E44000531C5 /* APIAuctionDetailRequester.m in Sources */,
 				D094FD8A1CD6EC7B000531C5 /* main.m in Sources */,
-				D094FDC51CD6F406000531C5 /* AuctionDetailViewModel.m in Sources */,
-				D094FDC81CD6F6A3000531C5 /* AuctionBusinessManager.m in Sources */,
-				D094FDD21CD70378000531C5 /* APIBidReuquester.m in Sources */,
-				D094FDCC1CD6F9F5000531C5 /* AuctionDetailViewController.m in Sources */,
-				D094FDCF1CD6FA0F000531C5 /* AuctionDetailView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +574,7 @@
 				D094FDB41CD6EC7B000531C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D094FDB51CD6EC7B000531C5 /* Build configuration list for PBXNativeTarget "MVVMMTests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +583,7 @@
 				D094FDB71CD6EC7B000531C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D094FDB81CD6EC7B000531C5 /* Build configuration list for PBXNativeTarget "MVVMMUITests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +592,7 @@
 				D094FDBA1CD6EC7B000531C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
