@@ -10,7 +10,7 @@
 
 #import "AuctionDetailView.h"
 #import "AuctionDetailViewModel.h"
-#import "AuctionBusinessManager.m"
+#import "AuctionBusinessManager.h"
 
 @interface AuctionDetailViewController()
 
